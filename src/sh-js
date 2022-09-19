@@ -1,0 +1,7 @@
+/* &> /dev/null # Bash
+echo 0
+exit
+
+Javascript */
+console.log(1);
+
