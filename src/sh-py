@@ -1,0 +1,7 @@
+'''': # Bash
+echo 0
+exit
+
+Python '''
+print(1)
+
