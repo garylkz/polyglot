@@ -1,6 +1,6 @@
 #<?php 
 // << ?'>' &> /dev/null
-echo "\n";
+echo "\e[2K\r";
 echo 0;
 echo "\n";
 exit();
