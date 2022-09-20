@@ -1,0 +1,8 @@
+'''' << Q &> /dev/null
+Python '''
+print(0)
+
+''' Bash
+Q
+echo 1
+# '''
