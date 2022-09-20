@@ -1,0 +1,11 @@
+#<?php 
+/* &> /dev/null
+# Bash
+echo 0
+exit 
+
+*/ # PHP
+echo "1";
+echo "\n";
+?>
+
