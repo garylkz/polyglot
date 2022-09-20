@@ -37,7 +37,15 @@ Run the file
 
 ## HTML
 
-Open the file with a browser
+Open the file with browser
+
+## PHP
+
+Run the file
+
+```
+php FILE
+```
 
 ## Python
 
