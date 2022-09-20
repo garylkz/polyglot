@@ -1,0 +1,13 @@
+/* &> /dev/null 
+# Bash
+echo 0
+exit
+
+C */
+#include <stdio.h>
+
+int main()
+{
+    printf("1\n"); 
+    return 0;
+}
