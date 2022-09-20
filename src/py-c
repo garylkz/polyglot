@@ -1,0 +1,11 @@
+#include <stdio.h> /* 
+# Python
+print(0)
+
+''' C */
+int main()
+{
+    printf("1\n"); 
+    return 0;
+}
+// '''
