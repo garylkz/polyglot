@@ -1,0 +1,9 @@
+// Javascript
+console.log(0);
+
+` <?php
+echo "\e[H\e[J";
+echo 1;
+echo "\n"; 
+exit(); 
+?> `
