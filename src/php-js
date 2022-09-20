@@ -1,0 +1,8 @@
+/* <?php 
+echo "\e[2K\r";
+echo 0;
+echo "\n";
+exit();
+
+?> Javascript */
+console.log(1);
