@@ -5,6 +5,7 @@ echo 0
 exit 
 
 */ # PHP
+echo "\n";
 echo "1";
 echo "\n";
 ?>
