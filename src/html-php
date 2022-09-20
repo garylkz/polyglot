@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Website</title>
+    </head>
+    <body>
+        <h1>Website</h1>
+    </body>
+</html>
+
+<?php
+#echo "\e[H\e[J";
+echo 1;
+echo "\n";
+?>
