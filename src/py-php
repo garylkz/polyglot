@@ -4,6 +4,6 @@ print(0)
 ''' PHP */
 echo "\e[2K\r";
 echo 1;
-echo "\n";
+echo "\n"; 
 exit(); 
 ?> '''
