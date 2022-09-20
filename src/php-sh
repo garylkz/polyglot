@@ -1,0 +1,9 @@
+#<?php 
+// << ?'>' &> /dev/null
+echo 0;
+echo "\n";
+exit();
+?>
+
+# Bash
+echo 1
