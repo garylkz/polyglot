@@ -5,7 +5,7 @@ echo 0
 exit 
 
 */ # PHP
-echo "\n";
+echo "\e[2K\r";
 echo "1";
 echo "\n";
 ?>
