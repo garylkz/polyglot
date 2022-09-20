@@ -1,0 +1,9 @@
+#<?php /*
+print(0)
+
+''' PHP */
+echo "\n";
+echo 1;
+echo "\n";
+exit(); 
+?> '''
