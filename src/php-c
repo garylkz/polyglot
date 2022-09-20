@@ -1,0 +1,14 @@
+/* <?php 
+echo "\e[2K\r";
+echo 0;
+echo "\n";
+exit();
+
+?> C */
+#include <stdio.h>
+
+int main()
+{
+    printf("1\n"); 
+    return 0;
+}
