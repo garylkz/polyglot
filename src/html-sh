@@ -1,0 +1,13 @@
+# Bash <!--
+" HTML -->
+<html>
+    <head>
+        <title>Website</title>
+    </head>
+    <body>
+        <h1>Website</h1>
+    </body>
+</html>
+
+<!-- Bash " &> /dev/null
+echo 0
