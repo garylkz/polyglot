@@ -1,0 +1,22 @@
+// C <!--
+/* HTML --> 
+<html>
+    <head>
+        <title>Website</title>
+        <script>
+            console.log(0);
+        </script>
+    </head>
+    <body>
+        <h1>Website</h1>
+    </body>
+</html>
+
+<!-- C */
+#include <stdio.h>
+
+int main()
+{
+    printf("1\n"); 
+    return 0;
+}
