@@ -7,27 +7,27 @@ List of commands to run the file in its corresponding "mode".
 
 ## Bash
 
-Run the file with the command 
-
-```
-./FILE
-```
-
-Make the file executable with the command
+Make the file executable
 
 ```
 chmod +x FILE
 ```
 
+Run the file
+
+```
+./FILE
+```
+
 ## C
 
-Compile the file with the command 
+Compile the file
 
 ```
 gcc -x FILE
 ```
 
-Run the file with the command
+Run the file
 
 ```
 ./a.out
@@ -39,11 +39,15 @@ Open the file with a browser
 
 ## Python
 
+Run the file
+
 ```
 python FILE
 ```
 
 ## Javascript
+
+Run the file
 
 ```
 node FILE
