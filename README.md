@@ -1,3 +1,5 @@
+[//]:#<<\<\!--&>/dev/null
+
 # polyglot
 
 Two times the script
@@ -63,3 +65,6 @@ Run the file
 node FILE
 ```
 
+<!--
+
+#-->
