@@ -7,6 +7,7 @@ Two times the script
 # Milestone
 
 <t>
+
 | Language | c | html | js | php | py | sh |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
 | html | [✓](src/html-c) | - | [✓](src/html-js) | [✓](src/html-php) | [✓](src/html-py) | [✓](src/html-sh) |
@@ -14,6 +15,7 @@ Two times the script
 | php | [✓](src/php-c) | X | [✓](src/php-js) | - | [✓](src/php-py) | [✓](src/php-sh) |
 | py | [✓](src/py-c) | [✓](src/py-html) | [✓](src/py-js) | [✓](src/py-php) | - | [✓](src/py-sh) |
 | sh | [✓](src/sh-c) | [✓](src/sh-html) | [✓](src/sh-js) | [✓](src/sh-php) | [✓](src/sh-py) | - |
+
 </t>
 
 # Usage
@@ -98,7 +100,7 @@ do
 done
 
 # Write table
-perl -0777 -i -pe "s/(<t>).*?(<\/t>)/\$1$TABLE\$2/s" README.md
+perl -0777 -i -pe "s/(<t>\n).*?(\n<\/t>)/\$1$TABLE\$2/s" README.md
 
 if [[ $USER != "runner" ]]
 then
