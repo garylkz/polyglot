@@ -48,6 +48,7 @@ python $FILE
 ```
 
 <!--
+# List languages
 LS=($(ls src))
 L1=() L2=()
 for i in ${LS[@]}
@@ -65,6 +66,7 @@ do
 done
 L2=($(echo ${L2[*]} | tr " " "\n" | sort))
 
+# Generate table
 TABLE="\n| Language |"
 for L in ${L2[@]} 
 do
@@ -95,5 +97,18 @@ do
     TABLE+="\n"
 done
 
+# Write table
 perl -0777 -i -pe "s/(<t>).*?(<\/t>)/\$1$TABLE\$2/s" README.md
+
+if [[ $USER != "runner" ]]
+then
+    echo "NOT RUNNER, SKIPPING COMMIT"
+    exit 0
+fi
+
+git config --global user.email gary.github@gmail.com
+git config --global user.name wotgary
+git add README.md
+git commit -m "Update README.md (Auto)"
+git push
 #-->
