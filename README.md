@@ -1,4 +1,4 @@
-[//]:#<<\<\!--&>/dev/null
+[#]:#<<\<\!--&>/dev/null
 
 # polyglot
 
@@ -9,60 +9,30 @@ Two times the script
 List of commands to run the file in its corresponding "mode".
  Do note that most example commands below is written in Bash.
 
-## Bash
-
-Make the file executable
-
-```
-chmod +x FILE
-```
-
-Run the file
-
-```
-./FILE
-```
-
-## C
-
-Compile the file
-
-```
-gcc -x FILE
-```
-
-Run the file
-
-```
-./a.out
-```
-
 ## HTML
 
 Open the file with browser
 
-## PHP
+## Bash
 
-Run the file
-
-```
-php FILE
-```
-
-## Python
-
-Run the file
-
-```
-python FILE
+```bash
+chmod +x $FILE # Set executable
+./$FILE
 ```
 
-## Javascript
+## C
 
-Run the file
-
+```bash
+gcc -x c $FILE # Compile
+./a.out
 ```
-node FILE
+
+## Others
+
+```bash
+php    $FILE
+python $FILE
+node   $FILE # Javascript
 ```
 
 <!--
