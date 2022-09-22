@@ -10,6 +10,7 @@ Two times the script
 
 | Language | c | html | js | php | py | sh |
 | --- | :-: | :-: | :-: | :-: | :-: | :-: |
+| c | - | [✓](src/c-html) | X | [✓](src/c-php) | [✓](src/c-py) | [✓](src/c-sh) |
 | html | [✓](src/html-c) | - | [✓](src/html-js) | [✓](src/html-php) | [✓](src/html-py) | [✓](src/html-sh) |
 | js | X | [✓](src/js-html) | - | [✓](src/js-php) | [✓](src/js-py) | [✓](src/js-sh) |
 | php | [✓](src/php-c) | X | [✓](src/php-js) | - | [✓](src/php-py) | [✓](src/php-sh) |
