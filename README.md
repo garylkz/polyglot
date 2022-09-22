@@ -1,6 +1,6 @@
-[#]:#<<\<\!--&>/dev/null
-
 # polyglot
+
+[#]:#<<\<\!--&>/dev/null
 
 Two times the script
 
